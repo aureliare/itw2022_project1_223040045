@@ -1,0 +1,287 @@
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: 600;
+  float: left;
+  font-family: courier;
+  color: pink;
+}
+.container {
+  padding: 15px;
+}
+.menu {
+  float: right;
+}
+header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 50px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border-bottom: 2.5px solid lightpink;
+  z-index: 10;
+}
+header ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  color: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+header ul li a:hover {
+  color: pink;
+}
+.intro {
+  height: 550px;
+}
+.intro h2 {
+  margin-top: 100px;
+  color: palevioletred;
+  font-size: 35px;
+  font-weight: 500;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.container .content-text {
+  margin-top: 140px;
+}
+.intro h1 {
+  color: palevioletred;
+  font-size: 75px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.intro p {
+  font-size: 16px;
+  color: grey;
+  text-align: left;
+  margin-bottom: 3px;
+  margin-left: 100px;
+}
+
+.intro img {
+  float: right;
+  position: relative;
+  top: -280px;
+  height: 450px;
+  margin-right: 50px;
+}
+
+.tbl-menu {
+  color: lightpink;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.profile {
+  height: 500px;
+  background-color: lightpink;
+  position: relative;
+}
+
+.profile-content img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 15px solid white;
+  margin: 100px 60px 100px 60px;
+}
+
+.profile-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.isi-profile h2 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.isi-profile p {
+  text-align: center;
+  padding-top: 3px;
+  font-size: 25px;
+}
+
+.isi-profile h2,
+p {
+  width: 600px;
+  text-align: center;
+  color: white;
+}
+
+.container h3 {
+  margin: 10px;
+}
+
+.container h2 {
+  margin-top: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, auto));
+  align-items: center;
+  gap: 2rem;
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.grid img {
+  height: auto;
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.text p {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 2rem;
+  margin-left: -110px;
+}
+
+.text h3 {
+  font-size: 32px;
+  color: #272727;
+  margin-bottom: 10px;
+}
+
+.text {
+  box-shadow: 0 0 5px 0px lightgrey;
+  text-align: center;
+  background-color: rgb(255,  204,  211);
+  border-radius: 0.5rem;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 18px;
+  padding-left: 50px;
+}
+.contact-text h4 {
+  color: var(--text-color);
+  margin: 18px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-text h2 {
+  font-size: var(--h2-font);
+  line-height: 1;
+}
+.contact-text p {
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.list {
+  margin-bottom: 2.8rem;
+}
+.list li {
+  margin-bottom: 12px;
+}
+.list li a {
+  display: block;
+  color: var(--second-color);
+  font-size: 14px;
+  transition: all 0.45s ease;
+}
+
+.list li a:hover {
+  color: var(--text-color);
+  transform: translateX(5px);
+}
+
+.contact-icons i {
+  height: 45px;
+  width: 45px;
+  color: pink;
+  font-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-right: 15px;
+  transition: all 0.45s ease;
+}
+.contact-icons i:hover {
+  background: var(--text-color);
+  color: var(--main-color);
+}
+
+.contact-form form {
+  position: relative;
+}
+.contact-form form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+.contact-form .submit {
+  display: inline-block;
+  font-size: 16px;
+  background: var(--main-color);
+  color: var(--text-color);
+  width: 160px;
+  transition: all 0.45s ease;
+}
+.contact-form .submit:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.end {
+  padding: 20px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background: var(--bg-color);
+}
+.last-text p {
+  color: var(--second-color);
+  font-size: 14px;
+}
