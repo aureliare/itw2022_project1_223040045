@@ -51,6 +51,8 @@ header ul li a:hover {
   color: pink;
 }
 
+/* home */
+
 .intro {
   height: 550px;
 }
@@ -89,13 +91,7 @@ header ul li a:hover {
   margin-right: 50px;
 }
 
-.tbl-menu {
-  color: lightpink;
-  float: right;
-  line-height: 50px;
-  font-size: 24px;
-  cursor: pointer;
-}
+/* about */
 
 .profile {
   height: 500px;
@@ -144,6 +140,8 @@ p {
   margin-top: 50px;
 }
 
+/* hobby dan project */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, auto));
@@ -181,6 +179,8 @@ p {
   border-radius: 0.5rem;
 }
 
+/* contact */
+
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -210,7 +210,7 @@ p {
 }
 .list li a {
   display: block;
-  color: var(--second-color);
+  color: pink;
   font-size: 14px;
   transition: all 0.45s ease;
 }
